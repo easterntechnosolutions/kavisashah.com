@@ -1,0 +1,203 @@
+#ball { 
+	z-index: 0;
+	width: 300px;
+	
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	transform:translateX(-50%);
+	
+	
+	
+	
+	-webkit-animation: bounce 2s 1 forwards;
+	-moz-animation: bounce 2s 1 forwards;
+	-ms-animation: bounce 2s 1 forwards;
+	animation: bounce 2s 1 forwards;
+}
+@media only screen and (max-width:640px){
+#ball { 
+	z-index: 3;
+	width: 250px;
+	
+	position: absolute;
+	top: 0px;
+	left: 50%;
+	transform:translateX(-50%);
+	
+	
+	
+	
+	-webkit-animation: bounce 2s 1 forwards;
+	-moz-animation: bounce 2s 1 forwards;
+	-ms-animation: bounce 2s 1 forwards;
+	animation: bounce 2s 1 forwards;
+}
+}
+
+/* ease-in is slow to fast, when the ball drops */
+/* ease-out is fast to slow, when the ball rebounds */
+
+@-webkit-keyframes bounce {
+	0% {
+		top: -30%;
+		-webkit-animation-timing-function: ease-in;
+	}
+	10% {
+		top: 140%;
+		-webkit-animation-timing-function: ease-out;
+	}
+	20% {
+		top: -10%;
+		-webkit-animation-timing-function: ease-in;
+	}
+	30% {
+		top: 110%;
+		-webkit-animation-timing-function: ease-out;
+	}
+	40% {
+		top: 10%;
+		-webkit-animation-timing-function: ease-in;
+	}
+	50% {
+		top: 80%;
+		-webkit-animation-timing-function: ease-out;
+	}
+	60% {
+		top: 20%;
+		-webkit-animation-timing-function: ease-in;
+	}
+	70% {
+		top: 45%;
+		-webkit-animation-timing-function: ease-out;
+	}
+	80% {
+		top: 25%;
+		-webkit-animation-timing-function: ease-in;
+	}
+	85% {
+		top: 40%;
+		-webkit-animation-timing-function: ease-out;
+	}
+	90% {
+		top: 30%;
+		-webkit-animation-timing-function: ease-in;
+	}
+	
+	
+	
+	100% {
+		top: 34%;
+		-webkit-animation-timing-function: ease-out;
+	}
+
+}
+
+@-moz-keyframes bounce {
+	0% {
+		top: -30%;
+		-moz-animation-timing-function: ease-in;
+	}
+	10% {
+		top: 140%;
+		-moz-animation-timing-function: ease-out;
+	}
+	20% {
+		top: -10%;
+		-moz-animation-timing-function: ease-in;
+	}
+	30% {
+		top: 110%;
+		-moz-animation-timing-function: ease-out;
+	}
+	40% {
+		top: 10%;
+		-moz-animation-timing-function: ease-in;
+	}
+	50% {
+		top: 80%;
+		-moz-animation-timing-function: ease-out;
+	}
+	60% {
+		top: 20%;
+		-moz-animation-timing-function: ease-in;
+	}
+	70% {
+		top: 45%;
+		-moz-animation-timing-function: ease-out;
+	}
+	80% {
+		top: 25%;
+		-moz-animation-timing-function: ease-in;
+	}
+	85% {
+		top: 40%;
+		-moz-animation-timing-function: ease-out;
+	}
+	90% {
+		top: 30%;
+		-moz-animation-timing-function: ease-in;
+	}
+		
+	100% {
+		top: 34%;
+		-moz-animation-timing-function: ease-out;
+	}
+}
+
+
+
+@keyframes bounce {
+	0% {
+		top: -30%;
+		animation-timing-function: ease-in;
+	}
+	10% {
+		top: 140%;
+		animation-timing-function: ease-out;
+	}
+	20% {
+		top: -10%;
+		animation-timing-function: ease-in;
+	}
+	30% {
+		top: 110%;
+		animation-timing-function: ease-out;
+	}
+	40% {
+		top: 10%;
+		animation-timing-function: ease-in;
+	}
+	50% {
+		top: 80%;
+		animation-timing-function: ease-out;
+	}
+	60% {
+		top: 20%;
+		animation-timing-function: ease-in;
+	}
+	70% {
+		top: 45%;
+		animation-timing-function: ease-out;
+	}
+	80% {
+		top: 25%;
+		animation-timing-function: ease-in;
+	}
+	85% {
+		top: 40%;
+		animation-timing-function: ease-out;
+	}
+	90% {
+		top: 30%;
+		animation-timing-function: ease-in;
+	}
+	
+	
+	
+	100% {
+		top: 34%;
+		animation-timing-function: ease-out;
+	}
+}
+   
